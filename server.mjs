@@ -10,7 +10,7 @@ let PORT = process.env.PORT || 3001;
 
 // middleware
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json({ extended: true }))
+app.use(bodyParser.json({ extended: true }));
 
 
 
